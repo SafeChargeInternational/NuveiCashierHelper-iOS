@@ -1,4 +1,0 @@
-framework module NuveiCashierScanner {
-  header "NuveiCashierScanner-Swift.h"
-  requires objc
-}
