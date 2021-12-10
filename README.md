@@ -19,7 +19,7 @@ pod 'NuveiCashierHelper', '~> 2.0'
 Carthage integration:
 Add the next pods in under the relevant target(s) in the Cartfile:
 ```Podfile
-github "SafeChargeInternational/NuveiCashierScanner-iOS" ~> 1.0
+github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 2.0
 github "SafeChargeInternational/CodeScanner" ~> 1.7.1
 github "SafeChargeInternational/PayCards_iOS" ~> 1.1.7
 ```
