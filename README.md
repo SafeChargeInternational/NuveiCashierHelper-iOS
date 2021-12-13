@@ -19,7 +19,7 @@ Carthage integration:
 Add the next pods in under the relevant target(s) in the Cartfile:
 ```Cartfile
 github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 2.1
-github "SafeChargeInternational/CodeScanner" ~> 1.7.2
+github "SafeChargeInternational/CodeScanner" ~> 1.7.1
 github "SafeChargeInternational/PayCards_iOS" ~> 1.1.7
 ```
 
