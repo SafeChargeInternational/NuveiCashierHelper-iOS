@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NuveiCashierHelper
+import AVFoundation
 import CodeScanner
 import Foundation
 import PayCardsRecognizer
@@ -8,7 +9,7 @@ import Swift
 import WebKit
 @objc @_inheritsConvenienceInitializers public class NuveiCashierHelper : ObjectiveC.NSObject {
   public static func versionNumber() -> Swift.String
-  public static func connect(to webView: WebKit.WKWebView)
+  public static func connect(to webView: WebKit.WKWebView, viewController: UIKit.UIViewController)
   @discardableResult
   public static func handleURL(_ url: Swift.String) throws -> Swift.Bool
   @objc override dynamic public init()

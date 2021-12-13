@@ -12,15 +12,14 @@ source 'https://github.com/SafeChargeInternational/Pods.git'
 
 Add the next pods in under the relevant target(s) in the Podfile:
 ```Podfile
-pod 'CodeScanner', :git => 'https://github.com/SafeChargeInternational/Pods.git', :branch => 'codescanner'
-pod 'NuveiCashierHelper', '~> 2.0'
+pod 'NuveiCashierHelper', '~> 2.1'
 ```
 
 Carthage integration:
 Add the next pods in under the relevant target(s) in the Cartfile:
-```Podfile
-github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 2.0
-github "SafeChargeInternational/CodeScanner" ~> 1.7.1
+```Cartfile
+github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 2.1
+github "SafeChargeInternational/CodeScanner" ~> 1.7.2
 github "SafeChargeInternational/PayCards_iOS" ~> 1.1.7
 ```
 
@@ -30,10 +29,13 @@ The SDK works with WKWebView, so add the next line before you load Nuvei cashier
 ```swift
 override func viewDidLoad() {
   super.viewDidLoad()
-  NuveiCashierHelper.connect(to: webView)
+
   webView.navigationDelegate = self
   
   // Setup web view and the rest of the view controller...
+
+  // Call this line after the webView is part of the view hierarchy
+  NuveiCashierHelper.connect(to: webView, viewController: self)
 }
 ```
 
