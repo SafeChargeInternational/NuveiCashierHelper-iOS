@@ -15,11 +15,19 @@ Add the next pods in under the relevant target(s) in the Podfile:
 pod 'NuveiCashierHelper', '~> 2.1'
 ```
 
-Carthage integration:
+Carthage integration (Xcode 13):
+Add the next pods in under the relevant target(s) in the Cartfile:
+```Cartfile
+github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 2.2
+github "SafeChargeInternational/CodeScanner" ~> 1.8.0
+github "SafeChargeInternational/PayCards_iOS" ~> 1.1.7
+```
+
+Carthage integration (Xcode 12):
 Add the next pods in under the relevant target(s) in the Cartfile:
 ```Cartfile
 github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 2.1
-github "SafeChargeInternational/CodeScanner" ~> 1.7.1
+github "SafeChargeInternational/CodeScanner" ~> 1.7.2
 github "SafeChargeInternational/PayCards_iOS" ~> 1.1.7
 ```
 
