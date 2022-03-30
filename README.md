@@ -12,23 +12,14 @@ source 'https://github.com/SafeChargeInternational/Pods.git'
 
 Add the next pods in under the relevant target(s) in the Podfile:
 ```Podfile
-pod 'NuveiCashierHelper', '~> 2.1'
+pod 'NuveiCashierHelper', '~> 3.0'
 ```
 
-Carthage integration (Xcode 13):
+Carthage integration:
 Add the next pods in under the relevant target(s) in the Cartfile:
 ```Cartfile
-github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 2.2
-github "SafeChargeInternational/CodeScanner" ~> 1.8.0
-github "SafeChargeInternational/PayCards_iOS" ~> 1.1.7
-```
-
-Carthage integration (Xcode 12):
-Add the next pods in under the relevant target(s) in the Cartfile:
-```Cartfile
-github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 2.1
-github "SafeChargeInternational/CodeScanner" ~> 1.7.2
-github "SafeChargeInternational/PayCards_iOS" ~> 1.1.7
+github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 3.0
+github "SafeChargeInternational/CodeScanner" ~> 1.8.1
 ```
 
 USAGE
@@ -40,7 +31,14 @@ override func viewDidLoad() {
 
   webView.navigationDelegate = self
   
+  // Prepare the cashier URL
+  let rawUrl = "<YOUR CASHIER URL WITHOUT '#' TAG IN THE END>"
+  // CashierHelper.update will throw an exception if rawUrl already contains '#'
+  let finalUrl = try? CashierHelper.update(url: rawUrl, with: [.qr, .card]) ?? cashierUrl
+  
   // Setup web view and the rest of the view controller...
+  
+  webView.load(URLRequest(url: finalUrl))
 
   // Call this line after the webView is part of the view hierarchy
   NuveiCashierHelper.connect(to: webView, viewController: self)
