@@ -67,7 +67,6 @@ extension WebViewController: WKNavigationDelegate {
 
 THIRD PARTY LIBS
 ------------
-* [PayCards_iOS](https://github.com/faceterteam/PayCards_iOS)
 * [CodeScanner](https://github.com/SafeChargeInternational/CodeScanner)
 
 LICENSE
