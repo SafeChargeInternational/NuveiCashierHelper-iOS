@@ -3,7 +3,7 @@ Nuvei Cashier Helper SDK for iOS
 
 SETUP
 ------------
-Pods integration: 
+**Pods integration:**  
 Add the next source(s) in the top of the Podfile:
 ```Podfile
 source 'https://github.com/CocoaPods/Specs.git'
@@ -12,14 +12,14 @@ source 'https://github.com/SafeChargeInternational/Pods.git'
 
 Add the next pods in under the relevant target(s) in the Podfile:
 ```Podfile
-pod 'NuveiCashierHelper', '~> 3.0'
+pod 'NuveiCashierHelper', '~> 3.0.1'
 ```
 
-Carthage integration:
+**Carthage integration:**  
 Add the next pods in under the relevant target(s) in the Cartfile:
 ```Cartfile
-github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 3.0
-github "SafeChargeInternational/CodeScanner" ~> 1.8.1
+github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 3.0.1
+github "SafeChargeInternational/CodeScanner" ~> 1.8.2
 ```
 
 USAGE
@@ -41,7 +41,7 @@ override func viewDidLoad() {
   webView.load(URLRequest(url: finalUrl))
 
   // Call this line after the webView is part of the view hierarchy
-  NuveiCashierHelper.connect(to: webView, viewController: self)
+  CashierHelper.connect(to: webView, viewController: self)
 }
 ```
 
