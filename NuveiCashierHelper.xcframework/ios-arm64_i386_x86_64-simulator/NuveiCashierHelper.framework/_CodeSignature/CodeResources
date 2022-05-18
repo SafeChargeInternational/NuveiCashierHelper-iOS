@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aWzssLg60qnQYgtH3u3QSCKoKTg=
+		vRDKn9lbLE43ey68He5A8DHTSek=
 		</data>
 		<key>Modules/NuveiCashierHelper.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -102,6 +102,15 @@
 			<key>hash</key>
 			<data>
 			Mz/4UHMFhBuGbpMdxNGmRcgZalU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/NuveiCashierHelperLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sYeRva/KFEHG798G1fnMepWQ5N8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -387,6 +396,19 @@
 			<key>hash2</key>
 			<data>
 			zRHsAZ9NJX7hYavOm3LGaXv0FNxmZB2tEAQQVwKKrBE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/NuveiCashierHelperLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sYeRva/KFEHG798G1fnMepWQ5N8=
+			</data>
+			<key>hash2</key>
+			<data>
+			CVmFnu5IZMMCtY/rXx9/4w8r9b7ogGJnwMPE77RxYxs=
 			</data>
 			<key>optional</key>
 			<true/>

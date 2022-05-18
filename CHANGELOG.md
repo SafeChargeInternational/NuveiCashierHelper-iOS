@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.1.0
+
+- `[NEW]` Added Spanish localization
+
 ## v3.0.1
 
 - `[FIX]` Fixed CocoaPods integration
