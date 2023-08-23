@@ -1,0 +1,3444 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NuveiCashierHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NuveiCashierHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "NuveiCashierHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "NuveiCashierHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "CodeScanner",
+        "printedName": "CodeScanner",
+        "declKind": "Import",
+        "moduleName": "NuveiCashierHelper"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CashierHelper",
+        "printedName": "CashierHelper",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "CashierAbility",
+            "printedName": "CashierAbility",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "qr",
+                "printedName": "qr",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NuveiCashierHelper.CashierHelper.CashierAbility.Type) -> NuveiCashierHelper.CashierHelper.CashierAbility",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CashierAbility",
+                        "printedName": "NuveiCashierHelper.CashierHelper.CashierAbility",
+                        "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NuveiCashierHelper.CashierHelper.CashierAbility.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CashierAbility",
+                            "printedName": "NuveiCashierHelper.CashierHelper.CashierAbility",
+                            "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO2qryA2EmF",
+                "mangledName": "$s18NuveiCashierHelper0bC0C0B7AbilityO2qryA2EmF",
+                "moduleName": "NuveiCashierHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "card",
+                "printedName": "card",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NuveiCashierHelper.CashierHelper.CashierAbility.Type) -> NuveiCashierHelper.CashierHelper.CashierAbility",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CashierAbility",
+                        "printedName": "NuveiCashierHelper.CashierHelper.CashierAbility",
+                        "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NuveiCashierHelper.CashierHelper.CashierAbility.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CashierAbility",
+                            "printedName": "NuveiCashierHelper.CashierHelper.CashierAbility",
+                            "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO4cardyA2EmF",
+                "mangledName": "$s18NuveiCashierHelper0bC0C0B7AbilityO4cardyA2EmF",
+                "moduleName": "NuveiCashierHelper"
+              },
+              {
+                "kind": "Var",
+                "name": "title",
+                "printedName": "title",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO5titleSSvp",
+                "mangledName": "$s18NuveiCashierHelper0bC0C0B7AbilityO5titleSSvp",
+                "moduleName": "NuveiCashierHelper",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO5titleSSvg",
+                    "mangledName": "$s18NuveiCashierHelper0bC0C0B7AbilityO5titleSSvg",
+                    "moduleName": "NuveiCashierHelper",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CashierAbility",
+                    "printedName": "NuveiCashierHelper.CashierHelper.CashierAbility",
+                    "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CashierAbility",
+                    "printedName": "NuveiCashierHelper.CashierHelper.CashierAbility",
+                    "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s18NuveiCashierHelper0bC0C0B7AbilityO2eeoiySbAE_AEtFZ",
+                "moduleName": "NuveiCashierHelper",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO9hashValueSivp",
+                "mangledName": "$s18NuveiCashierHelper0bC0C0B7AbilityO9hashValueSivp",
+                "moduleName": "NuveiCashierHelper",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO9hashValueSivg",
+                    "mangledName": "$s18NuveiCashierHelper0bC0C0B7AbilityO9hashValueSivg",
+                    "moduleName": "NuveiCashierHelper",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s18NuveiCashierHelper0bC0C0B7AbilityO4hash4intoys6HasherVz_tF",
+                "moduleName": "NuveiCashierHelper",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO",
+            "mangledName": "$s18NuveiCashierHelper0bC0C0B7AbilityO",
+            "moduleName": "NuveiCashierHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setCashierBackButtonClicked",
+            "printedName": "setCashierBackButtonClicked(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NuveiCashierHelper0bC0C03setB17BackButtonClicked8callbackyyycSg_tFZ",
+            "mangledName": "$s18NuveiCashierHelper0bC0C03setB17BackButtonClicked8callbackyyycSg_tFZ",
+            "moduleName": "NuveiCashierHelper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "versionNumber",
+            "printedName": "versionNumber()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NuveiCashierHelper0bC0C13versionNumberSSyFZ",
+            "mangledName": "$s18NuveiCashierHelper0bC0C13versionNumberSSyFZ",
+            "moduleName": "NuveiCashierHelper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(url:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NuveiCashierHelper.CashierHelper.CashierAbility]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CashierAbility",
+                    "printedName": "NuveiCashierHelper.CashierHelper.CashierAbility",
+                    "usr": "s:18NuveiCashierHelper0bC0C0B7AbilityO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NuveiCashierHelper0bC0C6update3url4withS2S_SayAC0B7AbilityOGtKFZ",
+            "mangledName": "$s18NuveiCashierHelper0bC0C6update3url4withS2S_SayAC0B7AbilityOGtKFZ",
+            "moduleName": "NuveiCashierHelper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(to:viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NuveiCashierHelper0bC0C7connect2to14viewControllerySo9WKWebViewC_So06UIViewG0CtFZ",
+            "mangledName": "$s18NuveiCashierHelper0bC0C7connect2to14viewControllerySo9WKWebViewC_So06UIViewG0CtFZ",
+            "moduleName": "NuveiCashierHelper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleURL",
+            "printedName": "handleURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NuveiCashierHelper0bC0C9handleURLySbSSKFZ",
+            "mangledName": "$s18NuveiCashierHelper0bC0C9handleURLySbSSKFZ",
+            "moduleName": "NuveiCashierHelper",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CashierHelper",
+                "printedName": "NuveiCashierHelper.CashierHelper",
+                "usr": "c:@M@NuveiCashierHelper@objc(cs)CashierHelper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NuveiCashierHelper@objc(cs)CashierHelper(im)init",
+            "mangledName": "$s18NuveiCashierHelper0bC0CACycfc",
+            "moduleName": "NuveiCashierHelper",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NuveiCashierHelper@objc(cs)CashierHelper",
+        "mangledName": "$s18NuveiCashierHelper0bC0C",
+        "moduleName": "NuveiCashierHelper",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NuveiCashierHelperError",
+        "printedName": "NuveiCashierHelperError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notInitialized",
+            "printedName": "notInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NuveiCashierHelper.NuveiCashierHelperError.Type) -> NuveiCashierHelper.NuveiCashierHelperError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NuveiCashierHelperError",
+                    "printedName": "NuveiCashierHelper.NuveiCashierHelperError",
+                    "usr": "s:18NuveiCashierHelper0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NuveiCashierHelper.NuveiCashierHelperError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NuveiCashierHelperError",
+                        "printedName": "NuveiCashierHelper.NuveiCashierHelperError",
+                        "usr": "s:18NuveiCashierHelper0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18NuveiCashierHelper0abC5ErrorO14notInitializedyA2CmF",
+            "mangledName": "$s18NuveiCashierHelper0abC5ErrorO14notInitializedyA2CmF",
+            "moduleName": "NuveiCashierHelper"
+          },
+          {
+            "kind": "Var",
+            "name": "wrongInput",
+            "printedName": "wrongInput",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NuveiCashierHelper.NuveiCashierHelperError.Type) -> (Swift.String) -> NuveiCashierHelper.NuveiCashierHelperError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> NuveiCashierHelper.NuveiCashierHelperError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NuveiCashierHelperError",
+                        "printedName": "NuveiCashierHelper.NuveiCashierHelperError",
+                        "usr": "s:18NuveiCashierHelper0abC5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NuveiCashierHelper.NuveiCashierHelperError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NuveiCashierHelperError",
+                        "printedName": "NuveiCashierHelper.NuveiCashierHelperError",
+                        "usr": "s:18NuveiCashierHelper0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18NuveiCashierHelper0abC5ErrorO10wrongInputyACSScACmF",
+            "mangledName": "$s18NuveiCashierHelper0abC5ErrorO10wrongInputyACSScACmF",
+            "moduleName": "NuveiCashierHelper"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18NuveiCashierHelper0abC5ErrorO",
+        "mangledName": "$s18NuveiCashierHelper0abC5ErrorO",
+        "moduleName": "NuveiCashierHelper",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NuveiCashierHelper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "NuveiCashierHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "NuveiCashierHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "VisionKit",
+        "printedName": "VisionKit",
+        "declKind": "Import",
+        "moduleName": "NuveiCashierHelper"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 12,
+      "value": "\"(null exp)\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 15,
+      "value": "\"(null holder)\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 54,
+      "value": "\"NVCC(\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 1,
+      "value": "\" (rank \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 1,
+      "value": "\"))\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "Array",
+      "offset": 703,
+      "length": 4,
+      "value": "[15]"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "Array",
+      "offset": 747,
+      "length": 12,
+      "value": "[13, 16, 19]"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "Array",
+      "offset": 805,
+      "length": 4,
+      "value": "[16]"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "Array",
+      "offset": 851,
+      "length": 4,
+      "value": "[14]"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "Array",
+      "offset": 899,
+      "length": 4,
+      "value": "[16]"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "Array",
+      "offset": 942,
+      "length": 4,
+      "value": "[16]"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "Array",
+      "offset": 1080,
+      "length": 16,
+      "value": "[16, 17, 18, 19]"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 1203,
+      "length": 18,
+      "value": "\"^3[47][0-9]{5,}$\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 1261,
+      "length": 25,
+      "value": "\"^4[0-9]{6,}([0-9]{3})?$\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 1332,
+      "length": 36,
+      "value": "\"^(5[1-5][0-9]{4}|677189)[0-9]{5,}$\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 1410,
+      "length": 34,
+      "value": "\"^3(?:0[0-5]|[68][0-9])[0-9]{4,}$\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 1488,
+      "length": 31,
+      "value": "\"^6(?:011|5[0-9]{2})[0-9]{3,}$\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 1558,
+      "length": 37,
+      "value": "\"^(?:2131|1800|35[0-9]{3})[0-9]{3,}$\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 1639,
+      "length": 20,
+      "value": "\"^(62|88)[0-9]{5,}$\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 1704,
+      "length": 26,
+      "value": "\"^(606282|3841)[0-9]{5,}$\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 1769,
+      "length": 99,
+      "value": "\"^((((636368)|(438935)|(504175)|(451416)|(636297))[0-9]{0,10})|((5067)|(4576)|(4011))[0-9]{0,12})$\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 2133,
+      "length": 8,
+      "value": "\"[^0-9]\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 2199,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2319,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2431,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 2453,
+      "length": 3,
+      "value": "\"5\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 2665,
+      "length": 19,
+      "value": "\": failed on regex\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 2712,
+      "length": 8,
+      "value": "\"[MKMK]\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2905,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 2979,
+      "length": 20,
+      "value": "\": failed on length\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 3027,
+      "length": 8,
+      "value": "\"[MKMK]\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3203,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 3293,
+      "length": 27,
+      "value": "\": failed on LuhnAlgorithm\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 3348,
+      "length": 8,
+      "value": "\"[MKMK]\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 3502,
+      "length": 13,
+      "value": "\": validated\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 3539,
+      "length": 8,
+      "value": "\"[MKMK]\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 3777,
+      "length": 34,
+      "value": "\".*[^0-9]*([0-9]{2}\\\/[0-9]{2})$\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3948,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4112,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4269,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 4434,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4449,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4453,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4685,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "Array",
+      "offset": 5060,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5083,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5176,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5284,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5423,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5476,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5481,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5556,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5583,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5609,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5613,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5649,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5654,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5760,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5766,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5834,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "StringLiteral",
+      "offset": 5865,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5928,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CreditCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5948,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1011,
+      "length": 5,
+      "value": "\"3.2\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "Array",
+      "offset": 1047,
+      "length": 164,
+      "value": "[\"devmobile.sccdev-qa.com\", \"apmtest.gate2shop.com\", \"ppp-test.safecharge.com\", \"secure.safecharge.com\"]"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1414,
+      "length": 8,
+      "value": "\"scanQR\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1454,
+      "length": 10,
+      "value": "\"scanCard\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1721,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2033,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2452,
+      "length": 3,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2517,
+      "length": 32,
+      "value": "\"Input url already contains '#'\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2895,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2915,
+      "length": 27,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2922,
+      "length": 1,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2941,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3544,
+      "length": 43,
+      "value": "\"nuveicashier:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3586,
+      "length": 72,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3984,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4063,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4098,
+      "length": 45,
+      "value": "\"nuveicashier:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4142,
+      "length": 72,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4542,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4621,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 4656,
+      "length": 21,
+      "value": "\"nuveicashier:\/\/back\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4867,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5275,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 5357,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5528,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5699,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5799,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5901,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5999,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6272,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 6310,
+      "length": 39,
+      "value": "\"Place the Abon code in the area below\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6474,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6728,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6743,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6850,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6927,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7029,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7044,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7148,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7163,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 7254,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7547,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7665,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7680,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7746,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7762,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7867,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7968,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8066,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8131,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8313,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8410,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8494,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8567,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8645,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8754,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8769,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8869,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8884,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8993,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 9536,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9675,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9847,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9971,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10071,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10173,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10271,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10880,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11005,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11131,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11253,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11369,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11728,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 11766,
+      "length": 41,
+      "value": "\"Place the credit card in the area below\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11932,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12186,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12201,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12308,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12385,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12487,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12502,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12606,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12621,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 12764,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13059,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13177,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13192,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13258,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13274,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13379,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13480,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13645,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 13992,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 14074,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14118,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14166,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 14310,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14604,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14737,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 14851,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14857,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14923,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15165,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 15465,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15509,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 15894,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15938,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15986,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 16130,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16665,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 16781,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16787,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16855,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17303,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17409,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17469,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 17600,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 17629,
+      "length": 69,
+      "value": "\"Camera access is required for card number and expiry date scanning.\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 17804,
+      "length": 21,
+      "value": "\"Allow camera access\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18011,
+      "length": 15,
+      "value": "\"Don’t allow\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18110,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18301,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18557,
+      "length": 47,
+      "value": "\"CardReader scanned number: \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18603,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18625,
+      "length": 58,
+      "value": "\"CardReader scanned expiry: \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18674,
+      "length": 7,
+      "value": "\"<nil>\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18682,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18728,
+      "length": 8,
+      "value": "\"source\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18786,
+      "length": 16,
+      "value": "\"cardHolderName\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18804,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18830,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18833,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18848,
+      "length": 12,
+      "value": "\"cardNumber\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18862,
+      "length": 20,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18881,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18896,
+      "length": 9,
+      "value": "\"expDate\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 18926,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19071,
+      "length": 8,
+      "value": "\"source\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19130,
+      "length": 11,
+      "value": "\"errorCode\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19143,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19157,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19172,
+      "length": 14,
+      "value": "\"errorMessage\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19315,
+      "length": 8,
+      "value": "\"qrCode\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19438,
+      "length": 16,
+      "value": "\"data = \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19453,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19624,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19749,
+      "length": 14,
+      "value": "\"url = \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19762,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19851,
+      "length": 20,
+      "value": "\"base64 = \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19870,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19997,
+      "length": 20,
+      "value": "\"newUrl = \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 20016,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 20317,
+      "length": 20,
+      "value": "\"NuveiCashierHelper\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 20347,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 20580,
+      "length": 31,
+      "value": "\"NuveiCashierHelperLocalizable\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20810,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20857,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20906,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20941,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 21345,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21361,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 21913,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21928,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21942,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22521,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 22540,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22556,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 23108,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23139,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23511,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23567,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23623,
+      "length": 3,
+      "value": "103"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23669,
+      "length": 3,
+      "value": "104"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 23783,
+      "length": 16,
+      "value": "\"User cancelled\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 23852,
+      "length": 35,
+      "value": "\"No permission given to use camera\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 23940,
+      "length": 49,
+      "value": "\"Your device does not support this functionality\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CashierHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 24032,
+      "length": 15,
+      "value": "\"Unknown error\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 315,
+      "length": 5,
+      "value": "5.397"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 323,
+      "length": 4,
+      "value": "8.56"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 941,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1259,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1390,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1544,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1845,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1989,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2039,
+      "length": 12,
+      "value": "\"(null exp)\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2103,
+      "length": 15,
+      "value": "\"(null holder)\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2171,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2193,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2219,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2241,
+      "length": 86,
+      "value": "\"NVCCScanResult(\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2271,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2287,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2303,
+      "length": 1,
+      "value": "\" (rank \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2322,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2324,
+      "length": 1,
+      "value": "\"))\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2413,
+      "length": 21,
+      "value": "\"Attempt: \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2433,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2499,
+      "length": 36,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2517,
+      "length": 1,
+      "value": "\" (\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2533,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2561,
+      "length": 30,
+      "value": "\"NuveiCashierHelper.CardType.\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2599,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2681,
+      "length": 44,
+      "value": "\"\nExpiry: \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2707,
+      "length": 1,
+      "value": "\" (\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2723,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2812,
+      "length": 52,
+      "value": "\"\nHolder: \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2842,
+      "length": 1,
+      "value": "\" (\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2862,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2935,
+      "length": 19,
+      "value": "\"print: \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2953,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3061,
+      "length": 12,
+      "value": "\"Found Rect\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3113,
+      "length": 12,
+      "value": "\"Found Text\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3271,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5001,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5088,
+      "length": 31,
+      "value": "\"camera_frame_processing_queue\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "Array",
+      "offset": 6957,
+      "length": 322,
+      "value": "[\"PRIME\", \"EXPIRY DATE\", \"VALID\", \"THRU\", \"GOOD THRU\", \"VALID THRU\", \"LAST DAY OF\", \"BANK\", \"VISA\", \"MASTERCARD\", \"AMERICAN\", \"EXPRESS\", \"AMERICAN EXPRESS\"]"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7303,
+      "length": 54,
+      "value": "\"[NV][Scan] >>>>>> rect detected \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7356,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7775,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8137,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8789,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9350,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "Dictionary",
+      "offset": 9504,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9961,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10036,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10076,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10099,
+      "length": 71,
+      "value": "\"[NV][Scan] >>>>>> handleParsedCard \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10142,
+      "length": 1,
+      "value": "\", attempt \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10162,
+      "length": 1,
+      "value": "\", done!\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10202,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10323,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10432,
+      "length": 64,
+      "value": "\"[NV][Scan] >>>>>> handleParsedCard \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10475,
+      "length": 1,
+      "value": "\", attempt \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10495,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 10770,
+      "length": 4,
+      "value": "0.96"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 10863,
+      "length": 4,
+      "value": "1.04"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 10935,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11089,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11163,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11186,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11256,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14021,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14068,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14242,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14364,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14402,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14580,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "Array",
+      "offset": 15416,
+      "length": 20,
+      "value": "[1.0, 1.0, 0.2, 0.4]"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15472,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16103,
+      "length": 25,
+      "value": "\"CIPerspectiveCorrection\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16156,
+      "length": 14,
+      "value": "\"inputTopLeft\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16212,
+      "length": 15,
+      "value": "\"inputTopRight\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16270,
+      "length": 17,
+      "value": "\"inputBottomLeft\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16332,
+      "length": 18,
+      "value": "\"inputBottomRight\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16536,
+      "length": 57,
+      "value": "\"[NV][Scan] >>>>>> parseResults(\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 16591,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 16629,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17171,
+      "length": 112,
+      "value": "\"bounds (x \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17205,
+      "length": 1,
+      "value": "\", y \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17232,
+      "length": 1,
+      "value": "\", w \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17256,
+      "length": 1,
+      "value": "\", h \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17281,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17365,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17527,
+      "length": 70,
+      "value": "\"[NV][Scan]   >>>> \"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17555,
+      "length": 1,
+      "value": "\"\" >> conf. \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17580,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 17596,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 18011,
+      "length": 57,
+      "value": "\"[NV][Scan]     >> number: \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 18067,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 18487,
+      "length": 43,
+      "value": "\"[NV][Scan]     >> expiry: \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 18529,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 18995,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19260,
+      "length": 47,
+      "value": "\"[NV][Scan]     >> holder: \""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19306,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20575,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20622,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20671,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20706,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 21122,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21138,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 21702,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21717,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21731,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22322,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 22341,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22357,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 22921,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22952,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 23293,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23346,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23417,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23503,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23590,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23667,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23750,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24036,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24121,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24136,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24222,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24238,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24323,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24436,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 24657,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24832,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24919,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24935,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25011,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25026,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25139,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25199,
+      "length": 3,
+      "value": "160"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25215,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 25466,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25622,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25733,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25818,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25833,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25932,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25947,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26029,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26044,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 26393,
+      "length": 13,
+      "value": "\"Scanning...\""
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26595,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26639,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Takexito\/Documents\/Projects\/Apple\/nuveicashierscanner-ios2\/NuveiCashierHelper\/CardReaderViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26705,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

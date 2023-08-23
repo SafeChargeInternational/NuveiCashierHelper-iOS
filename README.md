@@ -12,13 +12,13 @@ source 'https://github.com/SafeChargeInternational/Pods.git'
 
 Add the next pods in under the relevant target(s) in the Podfile:
 ```Podfile
-pod 'NuveiCashierHelper', '~> 3.0.1'
+pod 'NuveiCashierHelper', '~> 3.2'
 ```
 
 **Carthage integration:**  
 Add the next pods in under the relevant target(s) in the Cartfile:
 ```Cartfile
-github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 3.0.1
+github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 3.2
 github "SafeChargeInternational/CodeScanner" ~> 1.8.2
 ```
 

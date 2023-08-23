@@ -1,5 +1,10 @@
 # Change Log
 
+## v3.2.0
+
+- Updated translations of the credit card scanner hint
+- `[NEW]` Added CashierHelper.setCashierBackButtonClicked (shall be enabled in Nuvei backend)
+
 ## v3.1.0
 
 - `[NEW]` Added Spanish localization
