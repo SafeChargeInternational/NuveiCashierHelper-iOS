@@ -7,7 +7,7 @@ SETUP
 Add the next source(s) in the top of the Podfile:
 ```Podfile
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/SafeChargeInternational/Pods.git'
+source 'https://github.com/Nuvei/nuvei-mobile-pods.git'
 ```
 
 Add the next pods in under the relevant target(s) in the Podfile:
