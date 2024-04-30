@@ -12,13 +12,13 @@ source 'https://github.com/SafeChargeInternational/Pods.git'
 
 Add the next pods in under the relevant target(s) in the Podfile:
 ```Podfile
-pod 'NuveiCashierHelper', '~> 3.2'
+pod 'NuveiCashierHelper', '~> 3.3'
 ```
 
 **Carthage integration:**  
 Add the next pods in under the relevant target(s) in the Cartfile:
 ```Cartfile
-github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 3.2
+github "SafeChargeInternational/NuveiCashierHelper-iOS" ~> 3.3
 github "SafeChargeInternational/CodeScanner" ~> 1.8.2
 ```
 
@@ -42,6 +42,9 @@ override func viewDidLoad() {
 
   // Call this line after the webView is part of the view hierarchy
   CashierHelper.connect(to: webView, viewController: self)
+
+  // You can add a locale argument to this func in case your app is not fully localizaed and you want to use a pre-defined locale in all the SDK screens (e.g. Credit Card Scanner)
+  //CashierHelper.connect(to: webView, viewController: self, locale: "cs_CZ")
 }
 ```
 

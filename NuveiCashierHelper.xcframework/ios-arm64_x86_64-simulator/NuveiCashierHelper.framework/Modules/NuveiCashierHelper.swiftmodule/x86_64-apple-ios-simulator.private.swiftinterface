@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NuveiCashierHelper
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NuveiCashierHelper
 import AVFoundation
 import AVKit
 import CodeScanner
@@ -12,6 +11,7 @@ import VisionKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers public class CashierHelper : ObjectiveC.NSObject {
   public enum CashierAbility {
     case qr, card
@@ -27,9 +27,10 @@ import _StringProcessing
   public static func setCashierBackButtonClicked(callback: (() -> Swift.Void)?)
   public static func versionNumber() -> Swift.String
   public static func update(url: Swift.String, with abilities: [NuveiCashierHelper.CashierHelper.CashierAbility]) throws -> Swift.String
-  public static func connect(to webView: WebKit.WKWebView, viewController: UIKit.UIViewController)
+  public static func connect(to webView: WebKit.WKWebView, viewController: UIKit.UIViewController, locale: Swift.String? = nil)
   @discardableResult
   public static func handleURL(_ url: Swift.String) throws -> Swift.Bool
+  public func getAvailableLocale() -> [Swift.String]
   @objc override dynamic public init()
   @objc deinit
 }

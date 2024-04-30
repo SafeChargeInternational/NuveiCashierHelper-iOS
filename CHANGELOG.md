@@ -1,5 +1,9 @@
 # Change Log
 
+## v3.3.0
+
+- `[NEW]` Added an optional `locale` argument to `connect` function. It is intended for apps that are not fully localized and prefer to use a pre-defined/hard-coded locale in all the SDK screens (e.g. Credit Card Scanner)
+
 ## v3.2.0
 
 - Updated translations of the credit card scanner hint

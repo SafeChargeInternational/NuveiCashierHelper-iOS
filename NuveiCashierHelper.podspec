@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                        = "NuveiCashierHelper"
-  s.version                     = '3.2'
+  s.version                     = '3.3'
   s.summary                     = "NuveiCashierHelper"
   s.description                 = <<-DESC
                                    Nuvei Cashier Helper Library
